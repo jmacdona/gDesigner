@@ -1,0 +1,16 @@
+crispr_type	lbcpf1
+offinder_compute_type	C
+min_offinder_score_fwd	0.8
+min_offinder_score_rev	0.8
+offinder_max_mismatch	7
+melting_kconc	0.200
+melting_mgconc	0.003
+melting_naconc	0.008
+melting_GFE_fwd_min	-130000
+melting_GFE_fwd_max	-120000
+melting_GFE_rev_min	-130000
+melting_GFE_rev_max	-120000
+max_submatch	10
+pf_inter_cutoff	-12
+sw_cutoff_for	35
+sw_cutoff_rev	35

@@ -1,0 +1,4 @@
+sequencesStep1File.fa: 400	#after initial sequence generation
+sequencesStep1File_pf_self.fa: 400	#after folding and self-annealing energy filter
+sequencesStep2File.fa: 398	#after BLAST elimination
+sequencesFinalFile.fa: 68	#final orthogonal sequence count after network elimination
