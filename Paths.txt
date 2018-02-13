@@ -1,4 +1,4 @@
 grna_design_install_dir	/home/jmacdona/dev/mcpf1scripts/
 offinder_exe	/home/jmacdona/dev/mcpf1scripts/external/bin/cas-offinder
-pairfold_exe	/home/jmacdona/old_home_lc-jmacdona/Downloads/MultiRNAFold-2.0/pairfold.intra_inter
+pairfold_exe	/home/jmacdona/old_home_lc-jmacdona/Downloads/MultiRNAFold-2.0/pairfold
 melting_exe	/home/jmacdona/dev/mcpf1scripts/RNAMelting/executable/melting

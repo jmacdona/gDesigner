@@ -80,7 +80,7 @@ def filter_net(input_fasta_file, output_fasta_file):
             # only do expensive Pairfold calculation if not already connected
             if is_connected != True:
                 pf_temp = 37
-                pf_cmd = paths.pairfold_exe + " " + var_seq_i + " " + var_seq_j + " -t " + str(pf_temp) + " -m RNA | grep MFE | cut -f3"
+                pf_cmd = paths.pairfold_exe + " " + var_seq_i + " " + var_seq_j + " -t " + str(pf_temp) + " -m RNA | grep MFE | cut -f5 -d\" \""
                 print pf_cmd
                 mfe = subprocess.check_output(pf_cmd, shell=True, stderr=subprocess.STDOUT)
                 mfe = float(mfe)
